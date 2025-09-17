@@ -1,0 +1,275 @@
+@import url('./colors.css');
+
+
+/* admin submenu styles */
+
+.admin-submenu {
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.admin-submenu ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-submenu li {
+    display: inline-block;
+}
+
+.admin-submenu a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 3px;
+}
+
+.admin-submenu a:hover {
+    background-color: var(--color-400);
+    color: #000;
+}
+
+.admin-submenu a.active {
+    background-color: var(--color-500);
+    color: #fff;
+}
+
+
+/* situations page */
+
+
+.situations-page {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.situations-admin-container {
+    margin-top: 10px;
+    padding: 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+}
+
+
+.situations-admin-container h2 {
+    color: #fff;
+    display: flex;
+    font-size: 17px;
+    gap: 10px;
+    padding: 5px;
+    font-weight: normal;
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.situations-title-container {
+    background-color: var(--color-400);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.situations-title-container button {
+    background-color: var(--color-500);
+    color: #fff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.situations-title-container button:hover {
+    cursor: pointer;
+    background-color: var(--color-700);
+    transition: 0.5s;
+}
+
+.situations-admin-container h2:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+.situation-card {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.situation-card ul {
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.selected-situations {
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+}
+
+.situation-card li {
+    background-color: var(--color-200);
+    border-radius: 5px;
+    max-width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    padding: 2px;
+    align-items: center;
+}
+
+.situation-card li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.actions {
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+}
+
+.situations-btn {
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.situations-btn.category {
+    background-color: var(--color-500);
+}
+
+.situations-btn.category:hover {
+    background-color: var(--color-600);
+}
+
+.situations-btn.situation {
+    background-color: var(--color-400);
+}
+
+.situations-btn.situation:hover {
+    background-color: var(--color-500);
+}
+
+.situations-btn.institution {
+    background-color: #386291;
+}
+
+.situations-btn.institution:hover {
+    background-color: #284970;
+}
+
+.delete-all-button {
+    background-color: var(--color-500);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.delete-all-button:hover {
+    background-color: var(--color-600);
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: var(--color-600);
+}
+
+.selection-panel {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    display: flex;
+    flex-direction: column;
+}
+
+.situation-item {
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.situation-item div {
+    display: flex;
+    gap: 10px;
+}
+
+.situation-item button {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-500);
+    border: 1px solid var(--color-500);
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+}
+
+.situation-item button:hover {
+    background-color: #fff;
+    border-radius: 5px;
+    color: var(--color-500);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+.situation-item span {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 350px;
+}
+
+.situation-info button{
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    color: #000;
+}
+
+.situation-info button:hover {
+    cursor: pointer;
+}
+
+.modal-actions div {
+    display: flex;
+    gap: 10px;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 10px;
+}
+

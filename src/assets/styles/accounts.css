@@ -1,0 +1,155 @@
+.users-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.users-table-section {
+  width: 75%;
+}
+
+.create-user-section {
+  width: 25%;
+  border-radius: 5px;
+  border: 2px solid #e3e3e3;
+  padding: 10px;
+  max-height: 350px;
+}
+
+
+.create-user-section label {
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.create-user-section button {
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  background-color: var(--color-500);
+  font-weight: 600;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.create-user-section button:hover {
+  cursor: pointer;
+  background: var(--color-600);
+  transition: 0.5s;
+  color: #fff;
+}
+
+.users-content table {
+  border-collapse: separate;
+  border-radius: 5px;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid #e3e3e3;
+  width: 100%;
+}
+
+.users-content table td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #e3e3e3;
+}
+
+.users-content th {
+  padding: 5px;
+  text-align: left;
+  background-color: #e3e3e3;
+}
+
+.alert {
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+}
+
+.alert-success {
+  background-color: greenyellow;
+}
+
+.alert-error {
+  background-color: red;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.users-header {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.disabled-button {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #cccccc;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+}
+
+.isActive {
+  padding: 0 5px 0px 5px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.isActive.true {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.isActive.false {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.role {
+  padding: 0 5px 0px 5px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.role.admin {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.role.supervisor {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.role.cemco {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.account-actions button {
+  margin-right: 10px;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  background: var(--color-500);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.account-actions button:hover {
+  cursor: pointer;
+  background: var(--color-600);
+  transition: 0.5s;
+  color: #fff;
+}

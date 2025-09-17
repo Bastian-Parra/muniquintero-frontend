@@ -1,0 +1,15 @@
+:root {
+    --color-50: #FFF8F4;    /* Blanco suave con un toque de naranja */
+    --color-100: #FFEDE5;   /* Naranja muy claro */
+    --color-200: #FFD3BF;   /* Naranja claro */
+    --color-300: #FFAB85;   /* Naranja pastel */
+    --color-400: #FF834A;   /* Naranja cálido */
+    --color-500: #FF5C0A;   /* Naranja principal */
+    --color-600: #D94E09;   /* Naranja intenso */
+    --color-700: #B34107;   /* Naranja oscuro */
+    --color-800: #8A3406;   /* Naranja profundo */
+    --color-900: #632705;   /* Naranja muy oscuro */
+    --color-950: #311303;
+    --color-btn-save: #f2f2f2;
+    --color-btn-save-hover: #e5e5e5;
+}

@@ -1,0 +1,14 @@
+@import url('./colors.css');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    padding: 5px 0px 5px 0px;
+}

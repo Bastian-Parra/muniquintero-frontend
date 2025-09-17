@@ -1,0 +1,56 @@
+
+/* Report Filters */
+
+.chart-filters {
+    display: flex;
+    width: auto;
+    border-radius: 5px;
+    gap: 15px;
+    background-color: var(--color-400);
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    padding: 15px;
+}
+
+.chart-filters select {
+    width: 200px;
+    border: none;
+    border-left: 1px solid #e3e3e3;;
+    padding: 10px;
+    margin: 0;
+}
+
+.chart-filters label {
+    border: 1px solid #e3e3e3;
+    display: flex;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    color: #fff;
+    font-weight: normal;
+}
+
+.chart-filters p {
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    padding: 0px 10px 0px 10px;
+    font-size: 13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    .chart-filters {
+        margin-bottom: 50px;
+        align-items: center;
+    }
+    .chart-filters select {
+        width: 150px;
+    }
+}

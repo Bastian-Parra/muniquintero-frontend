@@ -1,0 +1,186 @@
+@import url('./colors.css');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
+.cenco-page {
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.reports-section {
+    overflow-y: auto;
+    width: 75%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.historial-section {
+    width: 25%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.historial-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.historial-section h1, .reports-section h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.form-group,
+.form-group label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: var(--color-950);
+    font-weight: 400;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.form-group-location,
+.map-container {
+    width: 100%;
+    height: 400px;
+    transition: all 0.3s ease-in-out;
+}
+
+.situation-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.situation-btn,
+#btn-create-report {
+    background-color: var(--color-500);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    transition: background 0.5s;
+}
+
+.situation-btn {
+    padding: 10px;
+}
+
+.situation-btn:hover,
+#btn-create-report:hover {
+    background-color: var(--color-600);
+    cursor: pointer;
+}
+
+#btn-create-report {
+    padding: 15px 20px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.toggle-fullscreen-btn:hover {
+    background-color: #0056b3;
+}
+
+.form-group.closure-input {
+    grid-column: span 3;
+}
+
+.form-group.situation-input,
+.large-input {
+    grid-column: span 1;
+}
+
+.form-group.closure-input textarea {
+    height: 100px;
+    resize: vertical;
+    width: 100%;
+}
+
+.form-grid input,
+.form-grid select {
+    font-size: 14px;
+    line-height: 1.2;
+    box-sizing: border-box;
+    appearance: none;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+    height: 50px;
+}
+
+.form-grid select {
+    margin-top: 8px;
+    padding: 16px;
+}
+
+#input-map {
+    margin: 10px 0;
+}
+
+.cenco-situation-select {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    appearance: none;
+}
+
+.report-card {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #e3e3e3;
+}
+
+.report-card:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    transition: 0.5s;
+}
+
+.report-card p {
+    margin: 3px;
+    font-size: 14px;
+    color: var(--color-950);
+}
+
+.report-card strong {
+    color: #000;
+
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .form-grid {
+        display: inline-block;
+    }
+}
